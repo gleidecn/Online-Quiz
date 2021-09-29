@@ -8,10 +8,18 @@
 
 
 #firts-name {
-    font-size: 90px;
-    
+    font-size: 70px;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Ephesis', cursive;
+    text-transform: uppercase;
+    padding: 30px;   
 }
 
-#second-name {
-    font-size: 45px;
+#quiz-container {
+    text-align: center;
+    background-color: lightgray;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 30px; 
 }
