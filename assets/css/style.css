@@ -21,8 +21,8 @@
     background-color: lightgray;
     text-align: center;
     background-repeat: no-repeat;
-    padding: 30px; 
-    
+    padding: 10px 20px 10px 20px; 
+    margin: 20px;
 }
 
 .button {
@@ -34,6 +34,4 @@
     margin: 20px 530px;
     font-size: 18px;
     width: 20%;
-    
-    
 }
