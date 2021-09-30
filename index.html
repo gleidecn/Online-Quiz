@@ -13,17 +13,23 @@
 </head>
 <body>
    
-    <div id="firts-name">
+    <div id="first_name">
     <span style="color:#f076a4">quiz time!</span>
 </div>
 
 <!-- quiz-container -->
-<div id="quiz-container">
-    <h3 class="first-question">Downing Street is the home of:</h3>
-    <button class="button button1">Harry Potter</button>
-    <button class="button button2">David Beckham</button>
-    <button class="button button3">Boris Johnson</button>
-    <button class="button button4">Prince William</button>
+<div id="quiz-container" name="quiz">
+    <h3 class="first_question">Downing Street is the home of:</h3>
+    <button class="button button1">Harry Potter</button onclick = "check();">
+    <button class="button button2">David Beckham</button onclick = "check();">
+    <button class="button button3">Boris Johnson</button onclick = "check();">
+    <button class="button button4">Prince William</button onclick = "check();">
+</div>
+
+<div id = "after_answering">
+    <p id = "correct-answer"></p>
+    <p id = "message"></p>
+    <img id = "picture">
 </div>
 
 

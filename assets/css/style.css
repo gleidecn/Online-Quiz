@@ -7,7 +7,7 @@
 }
 
 
-#firts-name {
+#first_name {
     font-size: 70px;
     text-align: center;
     background-repeat: no-repeat;
@@ -16,12 +16,12 @@
     padding: 30px;   
 }
 
-#quiz-container {
+#quiz_container {
     text-align: center;
     background-color: lightgray;
     text-align: center;
     background-repeat: no-repeat;
-    padding: 10px 20px 10px 20px; 
+    padding: 5px;
     margin: 20px;
 }
 
