@@ -9,31 +9,57 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Quiz Time</title>
-<script src="assets/js/script.js"></script>
+
 </head>
 <body>
    
-    <div id="first_name">
-    <span style="color:#f076a4">quiz time!</span>
+    <div id="title">
+    <span style="color:#ee3535">quiz time!</span>
 </div>
 
 <!-- quiz-container -->
-<div id="quiz-container" name="quiz">
-    <h3 class="first_question">Downing Street is the home of:</h3>
-    <button class="button button1">Harry Potter</button onclick = "check();">
-    <button class="button button2">David Beckham</button onclick = "check();">
-    <button class="button button3">Boris Johnson</button onclick = "check();">
-    <button class="button button4">Prince William</button onclick = "check();">
+<div class="quiz_container1 custom_box">
+    <h2 class="first_question">Downing Street is the home of:</h2>
+
+<div class="option_container1">
+    <div class="option">Harry Potter</div>
+    <div class="option">David Beckham</div>
+    <div class="option">Boris Johnson</div>
+    <div class="option">Prince William</div>
 </div>
 
-<div id = "after_answering">
-    <p id = "correct-answer"></p>
-    <p id = "message"></p>
-    <img id = "picture">
+<div class="next_question_btn">
+    <button type="button" class="btn">Next</button>
 </div>
 
+<div class="quiz_container1 custom_box">
+    <h2 class="second_question">Which London Underground line is represented as green on the tube map?</h2>
 
-    
+<div class="option_container">
+    <div class="option">Jubilee Line</div>
+    <div class="option">Central Line</div>
+    <div class="option">Victoria Line</div>
+    <div class="option">District Line</div>
+</div>
 
+<div class="next_question_btn">
+    <button type="button" class="btn">Next</button>
+</div>
+
+<!-- <div class="quiz_container1 custom_box">
+    <h2 class="third_question">Which London Underground line is represented as green on the tube map?</h2>
+
+<div class="option_container">
+    <div class="option">Jubilee Line</div>
+    <div class="option">Central Line</div>
+    <div class="option">Victoria Line</div>
+    <div class="option">District Line</div>
+</div>
+
+<div class="next_question_btn">
+    <button type="button" class="btn">Next</button>
+</div>  -->
+
+<script src="assets/js/script.js"></script>
 </body>
 </html>
