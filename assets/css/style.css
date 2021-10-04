@@ -42,3 +42,11 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.quiz .options{
+    float: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+
