@@ -24,3 +24,21 @@ body{
     border-radius: 24px;
     padding: 25px;
 }
+
+.quiz .question{
+    min-height: 50px;
+    border-radius: 24px;
+    color: black;
+    padding: 15px;
+    float:  center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.quiz .options ul{
+    list-style: none;
+    padding: 0%;
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
