@@ -89,4 +89,13 @@ body{
     cursor: pointer;
 }
 
+.quiz .score .score-card{
+    width: 60%;
+    float: left;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+
 
