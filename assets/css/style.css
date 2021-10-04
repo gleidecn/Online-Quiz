@@ -35,6 +35,12 @@ body{
     font-size: 25px;
 }
 
+.quiz .options{
+    float: center;
+    width: 100%;
+    cursor: pointer;
+}
+
 .quiz .options ul{
     list-style: none;
     padding: 0%;
@@ -42,11 +48,4 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.quiz .options{
-    float: center;
-    width: 100%;
-    cursor: pointer;
-}
-
 
