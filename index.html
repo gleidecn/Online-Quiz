@@ -1,64 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Quiz Time</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Quiz Time" content="Quiz Time"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   
-    <div id="title">
-    <span style="color:#ee3535">quiz time!</span>
+
+    <div id="logo">
+        <img src="../assets/images/logo-min.png" width="200" 
+        height="100" alt="Logo">
+    </div>
+    <div class="quiz">
+        <div id="questionBox" class="question">
+            Question
+        </div>
+    <div class="options">
+        <ul id="ul">
+            <li id="opt1" onclick="button(this)"></li>
+            <li id="opt2" onclick="button(this)"></li>
+            <li id="opt3" onclick="button(this)"></li>
+            <li id="opt4" onclick="button(this)"></li>
+        </ul>
+    </div>   
+    <div class="score">
+        <div class="next">
+              <button id="btnNext" type="button" onclick="next()">
+            Next
+            </button>  
+        </div>
+        <div class="score-card">
+            SCORE: <span id="scoreCard">0</span>
+        </div>
+
+    </div> 
 </div>
-
-<!-- quiz-container -->
-<div class="quiz_container1 custom_box">
-    <h2 class="first_question">Downing Street is the home of:</h2>
-
-<div class="option_container1">
-    <div class="option">Harry Potter</div>
-    <div class="option">David Beckham</div>
-    <div class="option">Boris Johnson</div>
-    <div class="option">Prince William</div>
-</div>
-
-<div class="next_question_btn">
-    <button type="button" class="btn">Next</button>
-</div>
-
-<div class="quiz_container1 custom_box">
-    <h2 class="second_question">Which London Underground line is represented as green on the tube map?</h2>
-
-<div class="option_container">
-    <div class="option">Jubilee Line</div>
-    <div class="option">Central Line</div>
-    <div class="option">Victoria Line</div>
-    <div class="option">District Line</div>
-</div>
-
-<div class="next_question_btn">
-    <button type="button" class="btn">Next</button>
-</div>
-
-<!-- <div class="quiz_container1 custom_box">
-    <h2 class="third_question">Which London Underground line is represented as green on the tube map?</h2>
-
-<div class="option_container">
-    <div class="option">Jubilee Line</div>
-    <div class="option">Central Line</div>
-    <div class="option">Victoria Line</div>
-    <div class="option">District Line</div>
-</div>
-
-<div class="next_question_btn">
-    <button type="button" class="btn">Next</button>
-</div>  -->
 
 <script src="assets/js/script.js"></script>
 </body>
