@@ -68,3 +68,9 @@ body{
 .quiz .options ul li.wrong{
     background-color: rgb(240, 57, 57);
 }
+
+.quiz .score {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+}
