@@ -60,3 +60,11 @@ body{
     color:white;
     cursor: pointer;
 }
+
+.quiz .options ul li.correct{
+    background-color: rgb(45, 182, 45);
+}
+
+.quiz .options ul li.wrong{
+    background-color: rgb(240, 57, 57);
+}
