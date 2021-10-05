@@ -1,3 +1,5 @@
+/*  This is a var where I need to make this actions. */
+
 var ul = document.getElementById('ul')
 var nextButton = document.getElementById('btnNext');
 var quizbox = document.getElementById('questionBox')
@@ -5,6 +7,8 @@ var opt1 = document.getElementById('opt1')
 var opt2 = document.getElementById('opt2')
 var opt3 = document.getElementById('opt3')
 var opt4 = document.getElementById('opt4')
+
+/*  This will be the questions where I need to ask the users. */
 
 var app={
     questions:[
@@ -20,7 +24,7 @@ var app={
         },      
         {
             q:'What was the most popular girls name in the UK in 2019?',
-            options: ['Bruna', 'Greyde', 'Olivia', 'Maria'],
+            options: ['Bruna', 'Greydi', 'Olivia', 'Maria'],
             answer:3
         },
         {
@@ -30,6 +34,9 @@ var app={
         }
                
     ],
+
+    /*  Depending on the anwsers I´ll get different results. */
+
     index:0,
     load:function(){
         if(this.index<=this.questions.length-1){

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
 
+/* ---- Body ---- */
+
 body{
     background-color: white;
     margin:0;
@@ -11,43 +13,56 @@ body{
     box-sizing: border-box;
 }
 
+/* ---- Logo ---- */
+
 #logo {
     margin: 20px; 
     text-align: center;
 }
 
+/* ---- Quiz---- */
 .quiz{
-    height: 490px;
+    height: 510px;
     width: 600px;
     background-color: lightgray;
     margin: 0px auto;
     border-radius: 24px;
     padding: 25px;
+    float: left;
 }
+
+/* ---- Question Quiz ---- */
 
 .quiz .question{
     min-height: 50px;
     border-radius: 24px;
     color: black;
     padding: 15px;
-    float:  center;
+    float:  left;
     width: 100%;
     font-size: 25px;
 }
 
+/* ---- Options Quiz ---- */
+
 .quiz .options{
-    float: center;
     width: 100%;
     cursor: pointer;
+    float: left;
 }
+
+/* ---- Options ul ---- */
 
 .quiz .options ul{
     list-style: none;
     padding: 0%;
+    display: flex;
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/* ---- Quiz li ---- */
 
 .quiz .options ul li{
     display: inline-block;
@@ -61,24 +76,39 @@ body{
     cursor: pointer;
 }
 
+/* ---- Correct li ---- */
+
 .quiz .options ul li.correct{
     background-color: rgb(45, 182, 45);
 }
+
+/* ---- wrong li ---- */
 
 .quiz .options ul li.wrong{
     background-color: rgb(240, 57, 57);
 }
 
+.quiz .options ul li:active{
+    box-shadow: 0px 0px 0px  rgb(84, 110, 179);
+}
+
+/* ---- Score ---- */
+
 .quiz .score {
-    float: left;
     width: 100%;
     cursor: pointer;
+    float: left;
 }
+
+/* ---- next button ---- */
 
 .quiz .score .next{
     width: 40%;
     float: left;
+    
 }
+
+/* ---- Correct li ---- */
 
 .quiz .score .next button{
     padding: 10px 70px;
@@ -89,12 +119,16 @@ body{
     cursor: pointer;
 }
 
+/* ---- Score cards ---- */
+
 .quiz .score .score-card{
-    width: 60%;
-    float: left;
+    width: 1px;
     line-height: 40px;
     font-size: 20px;
+    float: right;
 }
+
+/* ---- score card - span ---- */
 
 .quiz .score .score-card span{
     background-color: rgb(71, 109, 160);
@@ -103,7 +137,3 @@ body{
     color:white;
     border-radius: 24px;
 }
-
-
-
-
