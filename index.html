@@ -1,54 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Quiz Time" content="Quiz Time"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Quiz Time" content="Quiz Time" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Logo -->
 
-    <!-- Logo -->
-
-     <div id="logo"> 
-        <img src="../assets/images/logo-min.png" width="300" 
-        height="200" alt="Logo">
-    </div>
-
-    <!-- Quiz -->
-
-    <div class="quiz">
-        <div id="questionBox" class="question">
-            Question
+        <div id="logo">
+            <img src="../assets/images/logo-min.png" width="300" height="200" alt="Logo" />
         </div>
-    <div class="options">
-        <ul id="ul">
-            <li id="opt1" onclick="button(this)"></li>
-            <li id="opt2" onclick="button(this)"></li>
-            <li id="opt3" onclick="button(this)"></li>
-            <li id="opt4" onclick="button(this)"></li>
-        </ul>
-    </div>   
 
-    <!-- Score -->
+        <!-- Quiz -->
 
-    <div class="score">
-        <div class="next">
-              <button id="btnNext" type="button" onclick="next()">
+        <div class="quiz">
+            <div id="questionBox" class="question">
+                Question
+            </div>
+            <div class="options">
+                <ul id="ul">
+                    <li id="opt1" onclick="button(this)"></li>
+                    <li id="opt2" onclick="button(this)"></li>
+                    <li id="opt3" onclick="button(this)"></li>
+                    <li id="opt4" onclick="button(this)"></li>
+                </ul>
+            </div>
 
-    <!-- Next button-->
+            <!-- Score -->
 
-            Next
-            </button>  
+            <div class="score">
+                <!-- Next button-->
 
-    <!-- Score -->        
-            <div class="score-card">
-                SCORE: <span id="scoreCard">0</span>
+                <div class="next">
+                    <button id="btnNext" type="button" onclick="next()">
+                        Next
+                    </button>
+
+                    <!-- Score-card -->
+
+                    <div class="score-card">SCORE: <span id="scoreCard">0</span></div>
+                </div>
             </div>
         </div>
-    </div> 
-</div>
 
-<script src="assets/js/script.js"></script>
-</body>
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>

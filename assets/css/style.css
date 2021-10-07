@@ -1,59 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap");
 
 /* ---- Body ---- */
 
-body{
+body {
     background-color: white;
-    margin:0;
-    padding:0;
-    font-family: 'Monserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Monserrat", sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
 /* ---- Logo ---- */
 
 #logo {
-    margin: 20px; 
+    margin: 20px;
     text-align: center;
 }
 
 /* ---- Quiz---- */
-.quiz{
-    height: 510px;
+.quiz {
+    height: 490px;
     width: 600px;
-    background-color: lightgray;
+    background-color: #d3d3d3;
     margin: 0px auto;
     border-radius: 24px;
     padding: 25px;
-    float: left;
+    float: center;
 }
 
 /* ---- Question Quiz ---- */
 
-.quiz .question{
+.quiz .question {
     min-height: 50px;
     border-radius: 24px;
     color: black;
     padding: 15px;
-    float:  left;
+    float: center;
     width: 100%;
     font-size: 25px;
 }
 
 /* ---- Options Quiz ---- */
 
-.quiz .options{
+.quiz .options {
     width: 100%;
     cursor: pointer;
-    float: left;
+    float: center;
 }
 
 /* ---- Options ul ---- */
 
-.quiz .options ul{
+.quiz .options ul {
     list-style: none;
     padding: 0%;
     display: flex;
@@ -64,32 +64,32 @@ body{
 
 /* ---- Quiz li ---- */
 
-.quiz .options ul li{
+.quiz .options ul li {
     display: inline-block;
-    background-color: #051c68;
+    background-color: #062588;
     width: 46%;
     padding: 15px;
     border-radius: 24px;
     margin-bottom: 30px;
     margin: 10px;
-    color:white;
+    color: white;
     cursor: pointer;
 }
 
 /* ---- Correct li ---- */
 
-.quiz .options ul li.correct{
+.quiz .options ul li.correct {
     background-color: rgb(45, 182, 45);
 }
 
 /* ---- wrong li ---- */
 
-.quiz .options ul li.wrong{
+.quiz .options ul li.wrong {
     background-color: rgb(240, 57, 57);
 }
 
-.quiz .options ul li:active{
-    box-shadow: 0px 0px 0px  rgb(84, 110, 179);
+.quiz .options ul li:active {
+    box-shadow: 0px 0px 0px rgb(84, 110, 179);
 }
 
 /* ---- Score ---- */
@@ -102,18 +102,17 @@ body{
 
 /* ---- next button ---- */
 
-.quiz .score .next{
+.quiz .score .next {
     width: 40%;
     float: left;
-    
 }
 
 /* ---- Correct li ---- */
 
-.quiz .score .next button{
+.quiz .score .next button {
     padding: 10px 70px;
     color: white;
-    background-color:#f37272;
+    background-color: #fd5e7b;
     border: none;
     border-radius: 24px;
     cursor: pointer;
@@ -121,7 +120,7 @@ body{
 
 /* ---- Score cards ---- */
 
-.quiz .score .score-card{
+.quiz .score .score-card {
     width: 1px;
     line-height: 40px;
     font-size: 20px;
@@ -130,10 +129,11 @@ body{
 
 /* ---- score card - span ---- */
 
-.quiz .score .score-card span{
+.quiz .score .score-card span {
     background-color: rgb(71, 109, 160);
     padding: 5px 20px;
     border: none;
-    color:white;
+    color: white;
     border-radius: 24px;
 }
+
