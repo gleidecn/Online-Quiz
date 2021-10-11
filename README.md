@@ -2,7 +2,7 @@
 
 [Live link](https://gleidecn.github.io/quiz-time/)<br/>
 
-![Image text](./assets/images/responsive-min.png)<br/>
+![Image text](./assets/images/ami-responsive-min.png)<br/>
 
 The Quiz game has four questions with four different answers. When the user answers the questions it can see if the answer was wrong or right also when it completes all four questions will appear a score showing how many answers they got right.
 
@@ -24,9 +24,7 @@ The Quiz game has four questions with four different answers. When the user answ
 ![alt tag](./assets/images/colours-min.png "Colour scheme")
 
 - Typography:</br>
-    - Site wide, Archivo is used. Being provided by google fonts.
-    - This font was chosen as it looks modern and is easy to read.
-    - Wireframes
+    - I´ve used google fonts, this font was chosen as it looks modern and is easy to read.
 
 - Layout</br>
     - The idea is to be a simple, easy and fun quiz. I like to use strong colors and a modern look.
@@ -104,20 +102,20 @@ The Quiz game has four questions with four different answers. When the user answ
 - Performance and Accessiblilty:
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)  
  
-![Lighthouse](./assets/images/passing-the-metrics-min.png "Validation")
+![Lighthouse](./assets/images/lighthouse-min.png "Validation")
 
 - [Security overview](https://8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io/)
-![Security overview](./assets/images/Security-overview-min.png)
+![Security overview](./assets/images/new-security-min.png)
 
 - [Nu Html Checker - HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io%2F)
-![HTML](./assets/images/html-validator-min.png)
+![HTML](./assets/images/new-html-min.png)
 
 - [W3C CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-![CSS Validator](./assets/images/css-validator-min.png)
+![CSS Validator](./assets/images/new-w3c-min-2.png)
 
 - [Am I responsive](http://ami.responsivedesign.is) 
 - This was used to check responsiveness on different screen sizes and create the showcase image for the project.
-![My Webpage](./assets/images/2-responsive.png)
+![My Webpage](./assets/images/ami-responsive-min.png)
 
 - [Online JavaScript Beautifier](https://beautifier.io)
 - I used this tool to help format the javascript code 
