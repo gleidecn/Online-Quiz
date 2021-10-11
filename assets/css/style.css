@@ -28,7 +28,9 @@ body {
     margin: 0px auto;
     border-radius: 24px;
     padding: 25px;
-    float: center;
+
+   
+    
 }
 
 /* ---- Question Quiz ---- */
@@ -38,7 +40,6 @@ body {
     border-radius: 24px;
     color: black;
     padding: 15px;
-    float: center;
     width: 100%;
     font-size: 25px;
 }
@@ -48,7 +49,7 @@ body {
 .quiz .options {
     width: 100%;
     cursor: pointer;
-    float: center;
+    
 }
 
 /* ---- Options ul ---- */
@@ -60,6 +61,7 @@ body {
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 /* ---- Quiz li ---- */
@@ -96,7 +98,6 @@ body {
 
 .quiz .score {
     width: 100%;
-    cursor: pointer;
     float: left;
 }
 
@@ -136,4 +137,3 @@ body {
     color: white;
     border-radius: 24px;
 }
-
