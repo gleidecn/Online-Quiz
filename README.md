@@ -122,7 +122,7 @@ The Quiz game has four questions with four different answers. When the user answ
 
 ## [Deployment](deployment)
 
--  In the IDE, ensure the tree is clean, and all required items have been committed and pushed to the repository in GitHub.
+- In the IDE, ensure the tree is clean, and all required items have been committed and pushed to the repository in GitHub.
 - Sign in to GitHub.
 - Navigate to this repository: quiz-time
 - From the repository menu, choose Settings. 
