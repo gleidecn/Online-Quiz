@@ -4,7 +4,8 @@
 
 ![Image text](./assets/images/ami-responsive-min.png)<br/>
 
-The Quiz game has four questions with four different answers. When the user answers the questions it can see if the answer was wrong or right also when it completes all four questions will appear a score showing how many answers they got right.
+QuizTime is a test of knowledge as well as a form of entertainment. It consists of a website with questions with multiple answers, only one of them is correct.
+The user can only choose one answer from the four available. By clicking on the answers, the user finds out if it was right or wrong (green for correct and red for wrong) and counts one point per correct question. When the user completes all four questions, a score will appear showing how many answers they got right.
 
 # Table of Contents
 
@@ -81,6 +82,7 @@ The Quiz game has four questions with four different answers. When the user answ
 - [Ecosia](https://www.ecosia.org/)- [Google Font](https://fonts.google.com)
 - [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
 - [CSS-Tricks](https://css-tricks.com/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## [Testing](Testing)
 - Testing was carried out both manually and automatically.
@@ -173,3 +175,4 @@ The Quiz game has four questions with four different answers. When the user answ
 - [Ecosia](https://www.ecosia.org/)- [Google Font](https://fonts.google.com)
 - [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
 - [Code Institute Templates](https://github.com/Code-Institute-Org/gitpod-full-template)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
