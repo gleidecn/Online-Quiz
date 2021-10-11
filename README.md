@@ -1,12 +1,10 @@
 # Quiz Time 
 
-[Click to see the Live link](https://example.com)<br/><br/>
+[Live link](https://example.com)<br/>
 
-![Image text](./assets/images/responsive-min.png)<br/></br>
+![Image text](./assets/images/responsive-min.png)<br/>
 
 The Quiz game has four questions with four different answers. When the user answers the questions it can see if the answer was wrong or right also when it completes all four questions will appear a score showing how many answers they got right.
-
-</br>
 
 # Table of Contents
 
@@ -28,10 +26,9 @@ The Quiz game has four questions with four different answers. When the user answ
     - Site wide, Archivo is used. Being provided by google fonts.
     - This font was chosen as it looks modern and is easy to read.
     - Wireframes
-</br>
+
 - Layout</br>
     - The idea is to be a simple, easy and fun quiz. I like to use strong colors and a modern look.
-</br>
 
 ## [Features](Features)
 - Existing Features</br>
@@ -46,16 +43,14 @@ The Quiz game has four questions with four different answers. When the user answ
 
 ## [Technologies Used](Technologies)
 
-#### Languages: </br>
+#### Languages: 
 - HTML was used for the content and structure of the site, with emphasis placed on semantic elements and text alternatives for screen readers.
     
+-  CSS
+    - Is used to provide most of the styling for the website
 
--  CSS</br>
-    - Is used to provide most of the styling for the website</br>
-
-- Javascript</br>
+- Javascript
     - JavaScript has been used to implement the site's interactive features, allowing the user to be interactive with the quiz.
-<br/>
 
 ### Tools:
 
@@ -74,8 +69,6 @@ The Quiz game has four questions with four different answers. When the user answ
 - [Coolors](https://coolors.co/)
 - [Compresspng](https://compresspng.com/)
 - [Diffchecker](https://www.diffchecker.com/)
-</br>
- 
 
  ### Other Resources:
 
@@ -88,7 +81,6 @@ The Quiz game has four questions with four different answers. When the user answ
 - [Ecosia](https://www.ecosia.org/)- [Google Font](https://fonts.google.com)
 - [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
 - [CSS-Tricks](https://css-tricks.com/)
-</br>
 
 ## [Testing](Testing)
 - Testing was carried out both manually and automatically.
@@ -96,16 +88,14 @@ The Quiz game has four questions with four different answers. When the user answ
 ### Manual Tests:
 
     - I check regularly to ensure that the results were as intended. I made use of developer tools within the browser constantly to check across a number of things. I would use the console tools to try out different ideas, particularly styling, to see how it worked in real time and then implement the code written there into the project itself. Responsiveness testing was done both through console tools, along with trying different browsers on different devices.
-<br/>
 
-- I´ve performed the following checks:<br/>
+- I´ve performed the following checks:
 -  Desktop and mobile:
     - Make sure content loads properly, and timely.
     - No erros in console log, or IDE.
     - Try differents users using differents methods as desktop, mobile and tablets.
     - Refresh the page when I was answering each questions so see the results.
     - All  tests were performed across multiple browsers and OS.
-<br/><br/>
 
 ### Automated Tests:
 
