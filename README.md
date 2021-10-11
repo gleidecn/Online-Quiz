@@ -45,7 +45,8 @@ The Quiz game has four questions with four different answers. When the user answ
 ## [Technologies Used](Technologies)
 
 #### Languages: 
-- HTML was used for the content and structure of the site, with emphasis placed on semantic elements and text alternatives for screen readers.
+- HTML5
+    - HTML5 markup language used for structuring and presenting content on the website, with emphasis placed on semantic elements and text alternatives for screen readers.
     
 -  CSS
     - Is used to provide most of the styling for the website
@@ -88,7 +89,7 @@ The Quiz game has four questions with four different answers. When the user answ
 
 ### Manual Tests:
 
-    - I check regularly to ensure that the results were as intended. I made use of developer tools within the browser constantly to check across a number of things. I would use the console tools to try out different ideas, particularly styling, to see how it worked in real time and then implement the code written there into the project itself. Responsiveness testing was done both through console tools, along with trying different browsers on different devices.
+    I check regularly to ensure that the results were as intended. I made use of developer tools within the browser constantly to check across a number of things. I would use the console tools to try out different ideas, particularly styling, to see how it worked in real time and then implement the code written there into the project itself. Responsiveness testing was done both through console tools, along with trying different browsers on different devices.
 
 - I´ve performed the following checks:
 -  Desktop and mobile:
@@ -123,6 +124,17 @@ The Quiz game has four questions with four different answers. When the user answ
 
 ## [Deployment](deployment)
 
+### Creating Repository
+
+ - I created the repository using the following steps:
+ - I logged into my GitHub account and clicked the green button near the top left of the page displaying the text 'NEW'.
+ - This took me to a page with the option to create a new repository. Under the repository template I clicked on the code institute template.
+ - I chose a name for my repository and then clicked the create repository button.
+ - I opened the new repository and clicked the green gitpod button to create a new workspace in Git Pod for writing and editing my code to develop the website.
+
+### GitHub pages
+- My project was deployed to GitHub pages using the following steps:
+
 - In the IDE, ensure the tree is clean, and all required items have been committed and pushed to the repository in GitHub.
 - Sign in to GitHub.
 - Navigate to this repository: quiz-time
@@ -134,6 +146,16 @@ The Quiz game has four questions with four different answers. When the user answ
 - Once the page has been created will look like this one below:
 ![GitHub Pages](./assets/images/live-project-min.png)</br>
 [Click here to see my Live Project](https://gleidecn.github.io/quiz-time/)
+
+#### Forking the GitHub Repository
+- Log in to GitHub and locate the [GitHub Repository](https://github.com/gleidecn/quiz-time)
+- At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button and click.
+- This will provide you with a copy of the original repository in your GitHub account.
+
+#### Making a clone
+- [GitHub Repository](https://github.com/gleidecn/quiz-time)
+- At the top of the Repository just above the "Settings" Button on the menu, locate the "Fork" Button and click.
+- This will provide you with a copy of the original repository in your GitHub account.
 
 ## [Credits](credits)
 
