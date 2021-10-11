@@ -1,6 +1,6 @@
 # Quiz Time 
 
-[Live link](https://example.com)<br/>
+[Live link](https://gleidecn.github.io/quiz-time/)<br/>
 
 ![Image text](./assets/images/responsive-min.png)<br/>
 
@@ -13,6 +13,7 @@ The Quiz game has four questions with four different answers. When the user answ
 - First Time Visitor Goals:</br>
     - As a first time visitor I need to be able to navigate the site easily and clearly understand how to use the function of the site.
     - The users will easly choose the options and go to the next question.
+    - Once you finish playing refresh the page to try again.
 
 - Returning Visitor Goals:</br>
     - I want they can recomemnd the site and have a kind of competition with his group to see who score more points.
@@ -38,7 +39,7 @@ The Quiz game has four questions with four different answers. When the user answ
 
 - Future Features</br>
     - I want to add images to be more interactive with the users. Depending on their answer it will appear a different image.
-    - I want to add a back bottom, for when the user finishes the quiz start again the quiz.
+    - I want to add a back bottom, for when the user finishes the quiz start again the quiz, without havingt o refresh the page.
     - I want to center all the bottoms from the questions.
 
 ## [Technologies Used](Technologies)
@@ -129,8 +130,10 @@ The Quiz game has four questions with four different answers. When the user answ
 - From the menu setting scroll down to GitHub Pages click on Check it out here!
 ![GitHub Pages](./assets/images/githubpages-min.png) 
 - The page will refresh, and the Pages section now shows a URL for the deployed site.
-- Click the URL to view the deployed website. 
-- After deploy my project I´ll add an update image to see my live project from github.
+- Click the URL to view the live website. 
+- Once the page has been created will look like this one below:
+![GitHub Pages](./assets/images/live-project-min.png)</br>
+[Click here to see my Live Project](https://gleidecn.github.io/quiz-time/)
 
 ## [Credits](credits)
 
