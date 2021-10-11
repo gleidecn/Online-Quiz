@@ -93,7 +93,7 @@ The Quiz game has four questions with four different answers. When the user answ
 ## [Testing](Testing)
 - Testing was carried out both manually and automatically.
 
-- Manual Testing:
+### Manual Tests:
 
     - I check regularly to ensure that the results were as intended. I made use of developer tools within the browser constantly to check across a number of things. I would use the console tools to try out different ideas, particularly styling, to see how it worked in real time and then implement the code written there into the project itself. Responsiveness testing was done both through console tools, along with trying different browsers on different devices.
 <br/>
@@ -107,7 +107,7 @@ The Quiz game has four questions with four different answers. When the user answ
     - All  tests were performed across multiple browsers and OS.
 <br/><br/>
 
-- Automatic Testing:
+### Automated Tests:
 
 - Performance and Accessiblilty:
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)  
