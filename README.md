@@ -10,7 +10,7 @@ The Quiz game has four questions with four different answers. When the user answ
 
 # Table of Contents
 
-## [UX](general-info)
+## [UX](UX)
 
 - First Time Visitor Goals:</br>
     - As a first time visitor I need to be able to navigate the site easily and clearly understand how to use the function of the site.
@@ -19,7 +19,7 @@ The Quiz game has four questions with four different answers. When the user answ
 - Returning Visitor Goals:</br>
     - I want they can recomemnd the site and have a kind of competition with his group to see who score more points.
     
-## [Design](design)
+## [Design](Desing)
 
 - Colour Scheme:</br>
 ![alt tag](./assets/images/colours-min.png "Colour scheme")
@@ -28,11 +28,12 @@ The Quiz game has four questions with four different answers. When the user answ
     - Site wide, Archivo is used. Being provided by google fonts.
     - This font was chosen as it looks modern and is easy to read.
     - Wireframes
-
+</br>
 - Layout</br>
     - The idea is to be a simple, easy and fun quiz. I like to use strong colors and a modern look.
+</br>
 
-## [Features](features)
+## [Features](Features)
 - Existing Features</br>
     - There are 4 possible answers to choose from. The selected answer will turn red if it is wrong and green if it is correct.
     - Each card shows in what questions the user is playing at the moment.
@@ -43,9 +44,10 @@ The Quiz game has four questions with four different answers. When the user answ
     - I want to add a back bottom, for when the user finishes the quiz start again the quiz.
     - I want to center all the bottoms from the questions.
 
-## [Technologies Used](technologies Used)
--  Languages: </br>
-    - HTML was used for the content and structure of the site, with emphasis placed on semantic elements and text alternatives for screen readers.
+## [Technologies Used](Technologies)
+
+#### Languages: </br>
+- HTML was used for the content and structure of the site, with emphasis placed on semantic elements and text alternatives for screen readers.
     
 
 -  CSS</br>
@@ -53,23 +55,42 @@ The Quiz game has four questions with four different answers. When the user answ
 
 - Javascript</br>
     - JavaScript has been used to implement the site's interactive features, allowing the user to be interactive with the quiz.
-  
-<br/><br/>
+<br/>
 
 ### Tools:
 
- - [Git](https://git-scm.com)
- - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
- - [Github](https://github.com/gleidecn/quiz-time)
- - GitHub is used to store the project's code after being pushed from Git.
- - [Gitpod](https://gitpod.io/workspaces)
- - This was my IDE for the project.</br>
+- [Git](https://git-scm.com)
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Github](https://github.com/gleidecn/quiz-time)
+- GitHub is used to store the project's code after being pushed from Git.
+- [Gitpod](https://gitpod.io/workspaces)
+- This was my IDE for the project.
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
+- [Security overview](https://8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io/)
+- [Nu Html Checker - HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io%2F)
+- [W3C CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-blue-dog-u2w0biqy.ws-eu18.gitpod.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Am I responsive](http://ami.responsivedesign.is) 
+- [Online JavaScript Beautifier](https://beautifier.io)
+- [Coolors](https://coolors.co/)
+- [Compresspng](https://compresspng.com/)
+- [Diffchecker](https://www.diffchecker.com/)
+</br>
+ 
 
  ### Other Resources:
 
- - [Google Font](https://fonts.google.com) - I´ve import the 'Montserrat' sans-serif
+- [Code Institute Templates](https://github.com/Code-Institute-Org/gitpod-full-template) 
+- [Google Font](https://fonts.google.com) - I´ve import the 'Montserrat' sans-serif
+- [Slack](https://slack.com/intl/en-gb/) Huge thanks for the community, for all the helps.
+- [Stackoverflow](https://stackoverflow.com)
+- [W3School](https://www.w3schools.com/js/default.asp)
+- [Google](https://google.com)
+- [Ecosia](https://www.ecosia.org/)- [Google Font](https://fonts.google.com)
+- [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
+- [CSS-Tricks](https://css-tricks.com/)
+</br>
 
-## [Testing](testing)
+## [Testing](Testing)
 - Testing was carried out both manually and automatically.
 
 - Manual Testing:
@@ -123,20 +144,19 @@ The Quiz game has four questions with four different answers. When the user answ
 
 ## [Credits](credits)
 
-    - [Code Institute](https://codeinstitute.net) For providing endless help and resources to get me this far.
-    - Thanks to Reuben Ferrante, my Code Institute mentor, for his guidance and insight.
-    - [Slack](https://slack.com/intl/en-gb/) Huge thanks for the community, for all the helps.
-    - [Coolors](https://coolors.co/)
-    - [W3School](https://www.w3schools.com/js/default.asp)
-    - [Google Font](https://fonts.google.com)
-    - [Git](https://git-scm.com)
-    - Javascript from - [Kindson The Tech Pro](https://www.youtube.com/watch?v=2Bpiluefkh8&t=548s)
-    - [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
-    - [Stackoverflow](https://stackoverflow.com)
-    - [Google](https://google.com)
-    - [Ecosia](https://www.ecosia.org/)
-    - [Compresspng](https://compresspng.com/)
-    - [Diffchecker](https://www.diffchecker.com/)
-    - [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
-    
-
+- [Code Institute](https://codeinstitute.net) For providing endless help and resources to get me this far.
+- Thanks to Reuben Ferrante, my Code Institute mentor, for his guidance and insight.
+- [Slack](https://slack.com/intl/en-gb/) Huge thanks for the community, for all the helps.
+- [Coolors](https://coolors.co/)
+- [W3School](https://www.w3schools.com/js/default.asp)
+- [Compresspng](https://compresspng.com/)
+- [Diffchecker](https://www.diffchecker.com/)
+- [Git](https://git-scm.com)
+- Javascript from - [Kindson The Tech Pro](https://www.youtube.com/watch?v=2Bpiluefkh8&t=548s)
+- [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) 
+- [Stackoverflow](https://stackoverflow.com)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Google](https://google.com)
+- [Ecosia](https://www.ecosia.org/)- [Google Font](https://fonts.google.com)
+- [Firefox - Mozilla](https://www.mozilla.org/en-GB/firefox/new/)
+- [Code Institute Templates](https://github.com/Code-Institute-Org/gitpod-full-template)
