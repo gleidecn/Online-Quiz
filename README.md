@@ -5,7 +5,7 @@
 ![Image text](./assets/images/ami-responsive-min.png)<br/>
 
 QuizTime is a test of knowledge as well as a form of entertainment. It consists of a website with questions with multiple answers, only one of them is correct.
-The user can only choose one answer from the four available. By clicking on the answers, the user finds out if it was right or wrong (green for correct and red for wrong) and counts one point per correct question. When the user completes all four questions, a score will appear showing how many answers they got right.
+The user can only choose one answer from the four available. By clicking on the answers, the user finds out if it was right or wrong (green for correct and red for wrong) and counts one point per correct question. Then, clicking next and the process repeat till the end of questions. When the user completes all four questions, a score will appear showing how many answers they got right.
 
 # Table of Contents
 
@@ -13,7 +13,7 @@ The user can only choose one answer from the four available. By clicking on the 
 
 - First Time Visitor Goals:</br>
     - As a first time visitor I need to be able to navigate the site easily and clearly understand how to use the function of the site.
-    - The users will easly choose the options and go to the next question.
+    - The users will easily choose the options and go to the next question.
     - Once you finish playing refresh the page to try again.
 
 - Returning Visitor Goals:</br>
